@@ -1,0 +1,8 @@
+{
+  "secretKey": "12345-67890-09876-54321",
+  "mongoURI": "mongodb+srv://Sam1729Paul:Sam1729Paul@cluster0-qhlvw.mongodb.net/Resturent?retryWrites=true&w=majority",
+  "facebook": {
+    "clientId": "445223559589572",
+    "clientSecret": "c652d34210c4bdf36138d3b405fb3113"
+  }
+}

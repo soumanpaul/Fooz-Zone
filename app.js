@@ -6,6 +6,7 @@ var logger = require('morgan');
 const cookieParser = require('cookie-parser')
 var passport = require('passport');
 const connectDB = require('./config/db');
+const path = require('path');
 
 
 // Route files
@@ -22,14 +23,7 @@ var commentRouter = require('./routes/comment.routes');
 var app = express();
 
 connectDB();
-// app.all('*', (req, res, next) => {
-//   if (req.secure) {
-//     return next();
-//   }
-//   else {
-//     res.redirect(307, 'https://' + req.hostname + ':' + app.get('secPort') + req.url);
-//   }
-// })
+
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
